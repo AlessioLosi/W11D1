@@ -15,7 +15,7 @@ const Job = ({ data }) => (
         {data.title}
       </a>
     </Col>
-    <Favourite></Favourite>
+    <Favourite company={data}></Favourite>
   </Row>
 )
 

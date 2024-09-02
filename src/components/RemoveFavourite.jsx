@@ -11,9 +11,9 @@ const Favourites = () => {
     <div>
       <h2>Preferiti</h2>
       <ul>
-        {arrayOfFavourites.map((company, index) => (
-          <li key={index}>
-            {company.name}
+        {arrayOfFavourites.map((company) => (
+          <li>
+            {company.company_name}
             <button onClick={() => {
                   dispatch({
                     type: 'REMOVE_FAVOURITE',
