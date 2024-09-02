@@ -13,7 +13,7 @@ const FavouriteIndicator = () => {
   return (
     <div className="d-flex justify-content-end my-4">
       <Button
-        onClick={() => navigate('/RemoveFavourite')}
+        onClick={() => navigate('/favourite')}
         className="d-flex align-items-center"
       >
         <span className="ms-2">{arrayOfFavourites.length}</span>
