@@ -1,5 +1,6 @@
 import { Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import Favourite from './AddFavourite'
 
 const Job = ({ data }) => (
   <Row
@@ -14,6 +15,7 @@ const Job = ({ data }) => (
         {data.title}
       </a>
     </Col>
+    <Favourite></Favourite>
   </Row>
 )
 

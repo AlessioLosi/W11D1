@@ -37,7 +37,6 @@ const CompanySearchResults = () => {
           {jobs.map(jobData => (
             <Job key={jobData._id} data={jobData} />
           ))}
-          <Favourite/>
         </Col>
       </Row>
     </Container>
