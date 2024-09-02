@@ -15,7 +15,7 @@ const Favourites = () => {
             <button onClick={() => {
                   dispatch({
                     type: 'REMOVE_FAVOURITE',
-                    payload: company,  // Usa `company` come payload
+                    payload: company, 
                   });
                 }}>Elimina</button>
           </li>
